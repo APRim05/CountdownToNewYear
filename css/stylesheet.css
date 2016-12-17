@@ -45,7 +45,9 @@ html, body {
 	-webkit-text-stroke-width: 2px;
 	-webkit-text-stroke-color: #000;
 }
-
+#madeby .col-sm-12 {
+	margin-top: 50px;
+}
 #madeby {
 	text-align: center;
 }
