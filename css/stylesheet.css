@@ -25,6 +25,14 @@ html, body {
 	-webkit-text-stroke-color: #000;
 }
 
+@media (max-width: 768px) {
+    #logo h1{font-size: 2em;}
+}
+
+@media (max-width: 768px) {
+    #counter .countdown{font-size: 2em;}
+}
+
 #intro p {
 	color: white;
 	text-align: center;
@@ -36,6 +44,10 @@ html, body {
 	-webkit-text-stroke-color: #000;
 }
 
+@media (max-width: 768px) {
+	#intro p{font-size: 1.5em;}
+}
+
 #madeby p {
 	color: white;
 	text-align: center;
@@ -45,9 +57,7 @@ html, body {
 	-webkit-text-stroke-width: 2px;
 	-webkit-text-stroke-color: #000;
 }
-#madeby .col-sm-12 {
-	margin-top: -10px;
-}
+
 #madeby {
 	text-align: center;
 }
@@ -68,4 +78,11 @@ html, body {
 #madeby .github:hover {
 	color: #0aaf26;
 	bottom: 5px;
+}
+
+@media (max-width: 768px) {
+	#madeby {
+		margin-top: -60px;
+		font-size: 0.7em;
+	}
 }
